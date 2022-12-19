@@ -1,14 +1,11 @@
-p {
-    color: rgb(25, 0, 255);
-    font-size: 50px;
-    position: relative;
-  }
-  h1{
-    color: aqua;
-    font-size: 75px;
-  }
-#text  {
-  font-size: 48px;
-  color: blue;
-  position: relative;
+#image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: transform 1.5s ease-in-out;
 }
+
