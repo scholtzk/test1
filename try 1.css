@@ -1,3 +1,4 @@
-<head>
-  <link rel="stylesheet" href="/path/to/style.css">
-</head>
+p {
+    color: red;
+    font-size: 18px;
+  }
